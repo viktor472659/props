@@ -11,7 +11,7 @@ class Element extends Component {
     return(
       <>
           <div onClick={this.increase}>
-              {this.state.value}
+              {this.state.value+1}
             <Item/>
           </div>
       </>
